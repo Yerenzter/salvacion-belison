@@ -1,0 +1,65 @@
+Project Name: BARANGAY INFORMATION SYSTEM OF SALVACION
+College: College of Computer Studies
+Location: Salvacion, Belison , Antique 5700
+Technologies:
+  - ReactJS - for frontend development
+  - Hybrid UI TAILWIND/CSS/Material(including MaterializeCSS & Material Icons) - for UI design
+  - Bun.js - serving as server-side Javascript runtime environment
+  - Vite - for frontend development tooling
+  - MariaDB (NPM) - server as a driver or middleware for Fetching and query MariaDB SQL.
+Databases: BIS SALVACION
+Tables:
+  - Account - composed of 3 account types; system admin, admin and user (pre create)
+  - Profiles - contains a list of information of residents living in the village/barangay
+  
+  ACCOUNT TABLE
+  - Account ID
+  - Account Name
+  - Account Password
+  - Account Type
+  - Account Created
+  
+  RESIDENT TABLE
+  - Resident ID
+  - Resident First name
+  - Resident Middle name
+  - Resident Last Name
+  - Resident Age
+  - Resident Birthday
+  - Resident Sex
+  - Resident Occupation
+  - Resident Civil Status
+  
+  PUROK TABLE
+  - Purok ID
+  - Purok Name
+  
+  TRANSACTION TABLE
+  - Transaction ID
+  - Transaction Code
+  - Transaction Date
+  - Transaction Name
+  - Transaction Payment
+  
+  REQUEST TABLE
+  - Request ID
+  - Request Name
+  - Request Status
+  - Request Date
+    
+    - Barangay
+    FIELD_NAME		VALUES
+    ---------------------------               
+    Population		2000
+    Income				230000
+    
+Pages:
+  - Login
+  - System Admin Panel
+  - Admin Panel
+  - Dashboard
+  - Account Management
+  - Profile Registration
+  - Profile Lists
+  - Profile Page
+  - About
