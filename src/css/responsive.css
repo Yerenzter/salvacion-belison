@@ -1,0 +1,23 @@
+@media (min-width: 360px) and (max-width: 480px) {
+    .txt-sm {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .txt-md {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 2160px) {
+    .txt-lg {
+        font-size: 86px;
+    }
+}
+
+@media (min-width: 2161px) and (max-width: 4160px) {
+    .txt-xl {
+        font-size: 86px;
+    }
+}

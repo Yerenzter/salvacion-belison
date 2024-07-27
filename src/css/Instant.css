@@ -1,0 +1,85 @@
+@media (max-width: 480px) {
+    p {
+        font-size: small;
+        text-align: center;
+    }
+    .h1-responsive {
+        font-size: 50px;
+        text-align: center;
+        margin-left: 50px;
+    }
+}
+@media (max-width: 480px) {
+    #bg-responsive {
+        border-radius: 0%;
+        margin-right: 60px;
+    }
+}
+.gradient {
+    background: linear-gradient(70deg,#D1BAD2,#2884B8);
+    background-position: center;
+    background-size: cover;
+}
+
+.full {
+    height: 100vh;
+}
+.clan {
+    opacity: 60%;
+}
+.lan {
+    background: lavender;
+    box-shadow: 0 0 8px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.RGB {
+    background: skyblue;
+    border: 5px solid lavender;
+    border-radius: 20px;
+    transition: all;
+}
+.RGB:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 0 0 20px skyblue;
+}
+.min-h-screen {
+    background: url('../assets/Logo/logos.png');
+    background-size: 100%;
+    background-position: center;
+
+}
+.h-screen {
+    color: lavender;
+    background: url('../assets/Logo/logos.png');
+    background-size: 100%;
+    background-position: center;
+
+}
+.info {
+    background:slategray;
+}
+.class2 {
+    background: #2884B8;
+}
+.h1-responsive {
+    border-radius: 5px;
+    padding: 120px;
+    box-shadow:  0 0 100px skyblue;
+    background: lightsteelblue;
+}
+.segment {
+    box-shadow: 0 3px  rebeccapurple;
+}
+.All {
+    font-size: larger;
+    background:lightskyblue;
+    padding: 100px;
+    font-weight: bolder;
+}
+.button2 {
+    margin-right: 50px;
+}
+.claud1 {
+}
